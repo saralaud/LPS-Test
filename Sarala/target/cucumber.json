@@ -1,0 +1,355 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: saralaud@gmail.com"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Customer Search the Cheapest Fare for domestic flights",
+        "description": "",
+        "id": "search-for-the-cheapest-fare;customer-search-the-cheapest-fare-for-domestic-flights",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17026192364,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User on the Flight Center home page",
+            "match": {
+              "location": "DomesticFlightBooking.user_on_the_flight_Center_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3511676018,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on the Flight link on the menus",
+            "match": {
+              "location": "DomesticFlightBooking.user_click_on_the_Flight_link_on_the_menus()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1578210900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on the Domestic flights link",
+            "match": {
+              "location": "DomesticFlightBooking.user_click_on_the_Domestic_flights_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65233374,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigated to booking page and verify the page text",
+            "match": {
+              "location": "DomesticFlightBooking.user_should_navigated_to_booking_page_and_verify_the_page_text()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11308299079,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User entered Wellington from Depature field and select the dropdown value",
+            "match": {
+              "location": "DomesticFlightBooking.user_entered_Wellington_from_Depature_field_and_select_the_dropdown_value()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1238558559,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User entered Auckland from Destination field and select the dropdown value",
+            "match": {
+              "location": "DomesticFlightBooking.user_entered_Auckland_from_Destination_field_and_select_the_dropdown_value()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24427166,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "select the depature date from calender",
+            "match": {
+              "location": "DomesticFlightBooking.select_the_depature_date_from_calender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24091121,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "select the retuning date from calender",
+            "match": {
+              "location": "DomesticFlightBooking.select_the_retuning_date_from_calender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146626464,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "select the no of passanger as 2 adults",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 30
+                }
+              ],
+              "location": "DomesticFlightBooking.select_the_no_of_passanger_as_adults(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4461360092,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on the \"FIND DEALS\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FIND DEALS",
+                  "offset": 14
+                }
+              ],
+              "location": "DomesticFlightBooking.click_on_the_button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10058620754,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify the result page loaded and fares sorted in descending order",
+            "match": {
+              "location": "DomesticFlightBooking.verify_the_result_page_loaded_and_fares_sorted_in_descending_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Book the cheapest flight ticket for onward trip",
+        "description": "",
+        "id": "search-for-the-cheapest-fare;book-the-cheapest-flight-ticket-for-onward-trip",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3310459914,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "customer select the cheapest fare for onward trip on the result page",
+            "match": {
+              "location": "DomesticFlightBooking.customer_select_the_cheapest_fare_for_onward_trip_on_the_result_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4279150024,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "customer click on faretype and navigated to return flights booking page",
+            "match": {
+              "location": "DomesticFlightBooking.customer_click_on_faretype_and_navigated_to_return_flights_booking_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10045032672,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify the Select Return Flight text on the result page",
+            "match": {
+              "location": "DomesticFlightBooking.verify_the_Select_Return_Flight_text_on_the_result_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Customer book the cheapest return flight ticket",
+        "description": "",
+        "id": "search-for-the-cheapest-fare;customer-book-the-cheapest-return-flight-ticket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 244706431,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "customer select the cheapest return flight on booking page",
+            "match": {
+              "location": "DomesticFlightBooking.customer_select_the_cheapest_return_flight_on_booking_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3106501863,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "click on the returning Fare Type and verify the result page",
+            "match": {
+              "location": "DomesticFlightBooking.click_on_the_returning_Fare_Type_and_verify_the_result_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Response time",
+        "description": "",
+        "id": "search-for-the-cheapest-fare;response-time",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3972879901,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "verify the response time",
+            "match": {
+              "location": "DomesticFlightBooking.verify_the_response_time()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Verify the total price for onward and return tickets based on the no of passaengers",
+        "description": "",
+        "id": "search-for-the-cheapest-fare;verify-the-total-price-for-onward-and-return-tickets-based-on-the-no-of-passaengers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3047652260,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Get the price for onward and return tickets and validate the total outcome price",
+            "match": {
+              "location": "DomesticFlightBooking.get_the_price_for_onward_and_return_tickets_and_validate_the_total_outcome_price()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 37,
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "session expiree message",
+        "description": "",
+        "id": "search-for-the-cheapest-fare;session-expiree-message",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1280095135971,
+              "error_message": "org.openqa.selenium.NoAlertPresentException: no such alert\n  (Session info: chrome\u003d75.0.3770.142)\nBuild info: version: \u00273.10.0\u0027, revision: \u0027176b4a9\u0027, time: \u00272018-03-02T19:03:16.397Z\u0027\nSystem info: host: \u0027DESKTOP-1METE6J\u0027, ip: \u0027192.168.1.3\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\\Users\\RRAJES~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:50027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b5053cee9825dae2d7458583ec2e7165\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:987)\r\n\tat com.testAutomation.StepDef.DomesticFlightBooking.verify_the_proper_message_for_session_expire(DomesticFlightBooking.java:264)\r\n\tat ✽.Given verify the proper message for session expire(SearchCheapFlights.feature:43)\r\n",
+              "status": "failed"
+            },
+            "line": 43,
+            "name": "verify the proper message for session expire",
+            "match": {
+              "location": "DomesticFlightBooking.verify_the_proper_message_for_session_expire()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search for the Cheapest Fare",
+    "description": "As a customer of flight center\r\nI want to search for the cheapest fare for the onward trip(domestic only)\r\nAnd the return trip\r\nSo that I should be able to select the cheapest fares for both and get a total for the round trip.",
+    "id": "search-for-the-cheapest-fare",
+    "keyword": "Feature",
+    "uri": "SearchCheapFlights.feature"
+  }
+]

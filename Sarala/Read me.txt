@@ -1,0 +1,36 @@
+Test Framework:
+JDK 1.8, Maven, Selenium, Cucumber BDD, TestNG
+
+Project configuration:
+1. Export the project by opening the POM file in Eclipse 
+2. Wait until all the libraries downloaded from Maven repository
+
+Project Structure:
+- src (Main Source Package)
+
+	--->com.testAutomation.reusableFunctions (Description: Stored all the reusable functions at project level)
+				-> ReusableComponents.Java  (reusable file)
+				
+	--->com.testAutomation.StepDef (Description: Stored the steps definition files)
+				-> DomesticFlightBooking (steps definition file)
+				
+	--->com.testAutomation.TestRunner (Description: Stored the Test Runner file)
+				-> Test Runner (Test runner file to execute the script)
+				
+	--->com.testAutomation.Utility 
+				-> PropertiesFileReader (properties file reader helps to read the Resources/Browser-config.properties )
+				
+
+Execution steps:
+Right Click--->Test Runner.java (from "com.testAutomation.TestRunner" package)
+Select--->Run As--->TestNG Test
+
+Test report folder: 
+\\FlightCenterTestAutomation\\target\\site\\cucumber-pretty\\index.html
+
+
+
+
+ 
+		
+				
