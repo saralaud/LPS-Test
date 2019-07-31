@@ -258,8 +258,7 @@ public class DomesticFlightBooking extends ReusableComponents
 	@Given("^verify the proper message for session expire$")
 	public void verify_the_proper_message_for_session_expire() throws Throwable 
 	{
-
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.MINUTES);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("/html[1]/body[1]/div[10]/div[2]/div[1]/div[1]/h2[1]"));
 		Alert alert = driver.switchTo().alert();
 		String alertMsg = alert.getText();
